@@ -18,7 +18,7 @@ int Decrypt(){
         Flag2 = 1;
     if(fpts==NULL)
     {
-        (void)printf(" File does not exists or error in opening..!!");
+        (void)printf(" File does not exists or error in opening..!!");   #comments are good
         exit(EXIT_FAILURE);
     }
     fptt=fopen("temp.txt", "w+");
