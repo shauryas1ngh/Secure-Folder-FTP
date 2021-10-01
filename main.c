@@ -16,8 +16,8 @@ int main()
     int Input;
     int nav2;
     char fname[20];
-    
-    (void) printf("Please Enter 1 to Encrypt File\n");
+                                                              
+    (void) printf("Please Enter 1 to Encrypt File\n");                  //file encrypted ok done
     (void) printf("Please Enter 2 to Decrypt File\n");
     (void) printf("Please Enter your option :- ");
     (void)scanf("%1d",&Input);
