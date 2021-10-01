@@ -46,7 +46,7 @@ int main()
             fpto = fopen("code.txt","w");
             (void)fclose(fpto);
             (void)srand((unsigned)time(0));
-            for(i = 0;i<numm;i++)
+            for(i = 0;i<numm;i++) //encrypt numm times
             {
                 (void)Encrypt(fname);
                 if(i != (numm-1)){
@@ -61,7 +61,7 @@ int main()
         }
             }
             (void)printf("--------------------------\n");
-            (void) printf("\nFile %s successfully encrypted ..!!\n\n", fname);
+            (void) printf("\nFile %s successfully encrypted ..!!\n\n", fname); //encryption done
             (void)printf("--------------------------\n");
         }
             
@@ -76,12 +76,12 @@ int main()
             FILE *fptu;
    # endif
             (void)system("clear");
-            (void)Decrypt();
+            (void)Decrypt(); 
         }
             break;
             
         default:
-            (void)printf("Error !!");
+            (void)printf("Error !!"); //invalid input
             exit(EXIT_FAILURE);
             
     }
